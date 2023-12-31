@@ -24,6 +24,7 @@ Install Django:
         - django-admin --version
 
 Install mysqlclient:
+
     - pip install mysqlclient
 
 (replace database password in settings.py with your own)
