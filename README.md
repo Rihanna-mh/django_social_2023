@@ -27,7 +27,13 @@ Install mysqlclient:
 
     - pip install mysqlclient
 
-(replace database password in settings.py with your own)
+Update the MySQL configuration with your database credentials:
+
+app.config['MYSQL_HOST'] = 'localhost'
+app.config['MYSQL_USER'] = 'your-username'
+app.config['MYSQL_PASSWORD'] = 'your-password'
+app.config['MYSQL_DB'] = 'flask_db_blog1'
+
 *****
 
 One django project can contain more than one application.
