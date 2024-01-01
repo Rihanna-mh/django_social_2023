@@ -1,4 +1,4 @@
-A Django project for my full stack web app development college course in Python using Django framework and MySQL database.
+A Django project for my full stack web app development college course in Python using Django framework and MySQL database. Users can register and log in as well as create/edit their social profile and to see others' profiles.
 
 Install Django:
 
